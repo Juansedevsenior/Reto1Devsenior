@@ -1,0 +1,11 @@
+# Ignorar archivos compilados de Java
+*.class
+
+# Ignorar configuraciones locales de Visual Studio Code
+.vscode/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos del sistema en Mac
+.DS_Store
