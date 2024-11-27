@@ -12,7 +12,7 @@ Este es un simulador de viaje interplanetario donde el usuario puede elegir un p
 1. Clona el repositorio o descarga el código fuente.
 
    ```bash
-   git clone <URL>
+   git clone <https://github.com/Juansedevsenior/Reto1Devsenior.git>
 Abre el proyecto en tu editor de código favorito (por ejemplo, Visual Studio Code).
 
 Asegúrate de tener Java 8 o superior instalado en tu sistema.
@@ -38,8 +38,9 @@ Iniciar simulación: Comienza el viaje interplanetario. Durante el viaje, se sim
 Cómo funciona
 Reducción de recursos: Cada 1% de avance en el viaje, se reducirá el combustible y el oxígeno en 5 unidades.
 Eventos aleatorios: Cada vez que el progreso llega a un múltiplo de 15% (15%, 30%, 45%, etc.), se presentará un evento aleatorio (fallo en el sistema, asteroides, cambio de rumbo). El usuario debe escribir una respuesta para solucionar el problema y continuar el viaje.
+
 Ejemplo de Ejecución
-plaintext
+
 Copiar código
 ----- Simulador de Viaje Interplanetario -----
 1. Seleccionar planeta de destino
@@ -47,27 +48,3 @@ Copiar código
 3. Ajustar recursos (combustible, oxígeno, pasajeros)
 4. Iniciar simulación de viaje
 5. Salir
-Elige una opción: 1
-
-Planetas disponibles:
-1. Marte (225 millones de km)
-2. Júpiter (778 millones de km)
-3. Saturno (1433 millones de km)
-4. Venus (41 millones de km)
-5. Urano (2714 millones de km)
-6. Neptuno (4351 millones de km)
-Elige un planeta: 1
-Has seleccionado Marte (225 millones de km).
-
-Elige una nave: 1
-Ingresa la cantidad de pasajeros (máximo 20): 10
-Has seleccionado Nave A con una velocidad de 50,000 km/h.
-Ingresa la cantidad de combustible (en litros): 100
-Ingresa la cantidad de oxígeno (en horas): 50
-
-Iniciando simulación...
-Progreso: 15%, Tiempo restante: 9.0 horas, Combustible restante: 95 litros, Oxígeno restante: 45 horas
-¡Evento de falla! Se han perdido recursos.
-¡Un fallo en el sistema! Se pierde combustible y oxígeno.
-Escribe la respuesta correcta para reparar el sistema (escribe 'reparar'): reparar
-El sistema ha sido reparado. Se ha perdido algo de combustible y oxígeno.
